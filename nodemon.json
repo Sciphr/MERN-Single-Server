@@ -1,9 +1,8 @@
 {
   "env": {
     "DB_USER": "Sciphr",
-    "DB_PASSWORD": "8UPcEyJU9xNthvhO",
-    "DB_NAME": "mern",
-    "GOOGLE_API_KEY": "AIzaSyBGjOYfPcRsFOmZZrcpSFESfabrcFggHr4",
+    "DB_PASSWORD": "oyNKxRbOqkXvuEUK",
+    "DB_NAME": "mern-prod",
     "JWT_KEY": "supersecret_dont_share"
   }
 }

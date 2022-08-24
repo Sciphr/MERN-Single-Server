@@ -98,12 +98,14 @@ const createPlace = async (req, res, next) => {
   // const title = req.body.title; etc for each property
   const { title, description, address } = req.body;
 
+
   let coordinates;
   try {
     coordinates = await getCoordsForAddress(address);
   } catch (error) {
     return next(error);
   }
+
 
   const createdPlace = new Place({
     title,
