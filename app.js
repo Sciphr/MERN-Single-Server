@@ -15,24 +15,33 @@ app.use(bodyParser.json());
 
 app.use("/uploads/images", express.static(path.join("uploads", "images")));
 
+//THIS IS HERE ONLY FOR SINGLE UPLOAD
+app.use(express.static(path.join("public")));
+
 //This is just to get rid of CORS errors when setting up a React app that runs on a different server than your backend
-app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-Width, Content-Type, Accept, Authorization"
-  );
-  res.setHeader("Access-Control-Allow-Methods", "GET, POST, PATCH, DELETE");
-  next();
-});
+// app.use((req, res, next) => {
+//   res.setHeader("Access-Control-Allow-Origin", "*");
+//   res.setHeader(
+//     "Access-Control-Allow-Headers",
+//     "Origin, X-Requested-Width, Content-Type, Accept, Authorization"
+//   );
+//   res.setHeader("Access-Control-Allow-Methods", "GET, POST, PATCH, DELETE");
+//   next();
+// });
 
 app.use("/api/places", placesRoutes); //now it will only run if the URL starts with '/api/places'
 app.use("/api/users", usersRoutes); //now it will only run if the URL starts with '/api/users'
 
+//THIS IS ONLY HERE FOR SINGLE UPLOAD
 app.use((req, res, next) => {
-  const error = new HttpError("Could not find this route.", 404);
-  throw error;
+  res.sendFile(path.resolve(__dirname, "public", "index.html"));
 });
+
+//THIS IS REMOVED ONLY FOR SINGLE UPLOAD
+// app.use((req, res, next) => {
+//   const error = new HttpError("Could not find this route.", 404);
+//   throw error;
+// });
 
 //Express knows to handle this type of middleware function as an error function, if you have 4 arguments
 app.use((error, req, res, next) => {

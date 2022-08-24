@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5d370a8e.css",
+    "main.js": "/static/js/main.b9234abc.js",
+    "static/css/950.8c3ef40e.chunk.css": "/static/css/950.8c3ef40e.chunk.css",
+    "static/js/950.e077f695.chunk.js": "/static/js/950.e077f695.chunk.js",
+    "static/css/530.37e5f68c.chunk.css": "/static/css/530.37e5f68c.chunk.css",
+    "static/js/530.be1421f4.chunk.js": "/static/js/530.be1421f4.chunk.js",
+    "static/css/290.ee65b290.chunk.css": "/static/css/290.ee65b290.chunk.css",
+    "static/js/290.436208e3.chunk.js": "/static/js/290.436208e3.chunk.js",
+    "static/css/905.7969ff4c.chunk.css": "/static/css/905.7969ff4c.chunk.css",
+    "static/js/905.34f789f0.chunk.js": "/static/js/905.34f789f0.chunk.js",
+    "static/css/961.a26a142e.chunk.css": "/static/css/961.a26a142e.chunk.css",
+    "static/js/961.92de1ed0.chunk.js": "/static/js/961.92de1ed0.chunk.js",
+    "static/js/401.1229cb60.chunk.js": "/static/js/401.1229cb60.chunk.js",
+    "index.html": "/index.html",
+    "main.5d370a8e.css.map": "/static/css/main.5d370a8e.css.map",
+    "main.b9234abc.js.map": "/static/js/main.b9234abc.js.map",
+    "950.8c3ef40e.chunk.css.map": "/static/css/950.8c3ef40e.chunk.css.map",
+    "950.e077f695.chunk.js.map": "/static/js/950.e077f695.chunk.js.map",
+    "530.37e5f68c.chunk.css.map": "/static/css/530.37e5f68c.chunk.css.map",
+    "530.be1421f4.chunk.js.map": "/static/js/530.be1421f4.chunk.js.map",
+    "290.ee65b290.chunk.css.map": "/static/css/290.ee65b290.chunk.css.map",
+    "290.436208e3.chunk.js.map": "/static/js/290.436208e3.chunk.js.map",
+    "905.7969ff4c.chunk.css.map": "/static/css/905.7969ff4c.chunk.css.map",
+    "905.34f789f0.chunk.js.map": "/static/js/905.34f789f0.chunk.js.map",
+    "961.a26a142e.chunk.css.map": "/static/css/961.a26a142e.chunk.css.map",
+    "961.92de1ed0.chunk.js.map": "/static/js/961.92de1ed0.chunk.js.map",
+    "401.1229cb60.chunk.js.map": "/static/js/401.1229cb60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d370a8e.css",
+    "static/js/main.b9234abc.js"
+  ]
+}
